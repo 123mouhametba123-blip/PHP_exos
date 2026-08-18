@@ -1,5 +1,5 @@
 <?php
-
+require_once dirname(__DIR__)."/Entity/eleves.php";
 class Inscription
 {
     private ?Eleve $eleve;

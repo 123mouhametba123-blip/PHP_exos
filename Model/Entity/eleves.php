@@ -1,5 +1,6 @@
 <?php
-
+require_once dirname(__DIR__)."/Entity/responsable.php";
+require_once dirname(__DIR__)."/Entity/status.php";
 class Eleve
 {
     private string $ref;
