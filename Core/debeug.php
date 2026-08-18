@@ -1,7 +1,8 @@
 <?php 
 class debeug{
-    // public class  function debeug(){
-
-    // }
+    static function dd(mixed $var){
+    var_dump($var);
+    die();
+    }
 }
 ?>
